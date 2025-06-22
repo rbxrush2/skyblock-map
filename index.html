@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skyblock Survival Map – Minecraft 1.20+</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1b1b1b;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      color: #66ffcc;
+    }
+    p {
+      max-width: 800px;
+      margin: auto;
+      padding: 1rem;
+      line-height: 1.6;
+    }
+    .features {
+      background-color: #141414;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li::before {
+      content: "🌌";
+      margin-right: 8px;
+    }
+    .download {
+      text-align: center;
+      padding: 2rem;
+    }
+    .btn {
+      background-color: #66ffcc;
+      color: black;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #33d1a6;
+    }
+    #status {
+      margin-top: 1rem;
+      color: #ccc;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Skyblock Survival Map</h1>
+    <p>The ultimate floating island survival challenge. Download this custom Skyblock map for Minecraft 1.20+ and test your limits!</p>
+  </header>
+
+  <section class="features">
+    <h2>🌟 What’s Included</h2>
+    <ul>
+      <li>Classic floating island world</li>
+      <li>Starter chest with essentials</li>
+      <li>Nether & End support</li>
+      <li>Made for survival or co-op play</li>
+      <li>Supports Minecraft 1.20+</li>
+    </ul>
+  </section>
+
+  <div class="download">
+    <button class="btn" onclick="startCooldown()">Download Map</button>
+    <div id="status"></div>
+  </div>
+
+  <footer>
+    © 2025 rbxrush2 | Skyblock Challenge Awaits ☁️
+  </footer>
+
+  <script>
+    function startCooldown() {
+      let seconds = 3;
+      const status = document.getElementById('status');
+      status.innerText = `Redirecting in ${seconds}...`;
+
+      const countdown = setInterval(() => {
+        seconds--;
+        if (seconds > 0) {
+          status.innerText = `Redirecting in ${seconds}...`;
+        } else {
+          clearInterval(countdown);
+          status.innerText = 'Redirecting...';
+          window.location.href = "http://adfoc.us/872640110896913";
+        }
+      }, 1000);
+    }
+  </script>
+
+</body>
+</html>
